@@ -1,0 +1,85 @@
+/* General reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Arial', sans-serif;
+}
+
+/* About section */
+.about-section {
+    text-align: center;
+    background-color: #e0f7fa; /* Light cyan background */
+    padding: 60px 20px;
+}
+
+.about-section h1 {
+    font-size: 42px;
+    color: #00796b; /* Teal color for the heading */
+    margin-bottom: 15px;
+}
+
+.about-section p {
+    font-size: 20px;
+    color: #004d40; /* Darker teal for the paragraph text */
+}
+
+/* Team section */
+.team-section {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap; /* Wrap items on smaller screens */
+    gap: 30px;
+    padding: 40px 20px;
+    background-color: #ffffff; /* Clean white background */
+}
+
+.team-member {
+    text-align: center;
+    max-width: 300px;
+    border: 2px solid #b2dfdb; /* Light teal border */
+    border-radius: 15px; /* Rounded corners */
+    padding: 20px;
+    background-color: #ffffff; /* White background for team member */
+    transition: box-shadow 0.3s ease; /* Smooth shadow transition */
+}
+
+.team-member:hover {
+    box-shadow: 0 8px 10px rgba(0, 0, 0, 0.1); /* Subtle shadow on hover */
+}
+
+.team-member img {
+    width: 120px;
+    height: 120px;
+    border-radius: 50%;
+    object-fit: cover;
+    border: 3px solid #00796b; /* Teal border around the image */
+    margin-bottom: 10px;
+}
+
+.team-member h2 {
+    font-size: 26px;
+    color: #00796b; /* Teal color for names */
+    margin-bottom: 8px;
+}
+
+.team-member h2:hover {
+    color: #004d40; /* Darker teal on hover */
+    transform: scale(1.1); /* Slight zoom effect */
+}
+
+.team-member .title {
+    font-size: 20px;
+    color: #004d40; /* Dark teal for titles */
+    margin-bottom: 8px;
+}
+
+.team-member p {
+    font-size: 16px;
+    color: #333; /* Darker color for details */
+}
+
+.team-member p.email {
+    color: #00796b; /* Teal color for email */
+}
